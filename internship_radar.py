@@ -31,12 +31,13 @@ UA = "internship-radar/1.0 (personal job alerts)"
 TIMEOUT = 25
 
 # ------------------------------------------------------------------ matching ---
-TARGET_YEARS = {"2027"}
-INTERN_TERMS = ("intern", "internship", "co-op", "co op", "coop")
+TARGET_YEAR = "2027"                             # the year you want, period
+# \b word boundaries so "internal" / "international" do NOT match.
+# Matches: intern, interns, internship, internships, co-op, coop, co op
+INTERN_RE = re.compile(r"\bintern(?:ship)?s?\b|\bco[\s-]?ops?\b")
 EXCLUDE_TERMS = ("high school",)                 # keep grad/PhD interns in
 SEASONS_ALL = {"spring", "summer", "fall", "autumn", "winter"}
 WANT_SEASON = "summer"
-YEAR_RE = re.compile(r"\b(20\d{2})\b")
 TAG_RE = re.compile(r"<[^>]+>")
 
 
@@ -45,34 +46,29 @@ def clean(html: str) -> str:
 
 
 def classify(title: str, content: str):
-    """Return (is_match, tags) for the Summer-2027 internship rule."""
-    text = clean(title) + " " + clean(content)
-    if not any(t in text for t in INTERN_TERMS):
+    """Strict rule: 'intern/co-op' must be in the TITLE, and '2027' must appear.
+    Returns (is_match, tags)."""
+    title_l = clean(title)
+    text = title_l + " " + clean(content)
+
+    # 1) must be an internship — signal must be in the TITLE (kills "internal" noise)
+    if not INTERN_RE.search(title_l):
         return False, []
     if any(x in text for x in EXCLUDE_TERMS):
         return False, []
 
-    tags = []
-    years = set(YEAR_RE.findall(text))
-    target = years & TARGET_YEARS
-    if target:
-        year_ok, _ = True, tags.append("2027")
-    elif not years:
-        year_ok = True
-        tags.append("no-year")          # evergreen — could be 2027, eyeball it
-    else:
-        year_ok = False                  # mentions only other years (e.g. 2026)
+    # 2) must actually be the 2027 cohort
+    if TARGET_YEAR not in text:
+        return False, []
+    tags = ["intern", TARGET_YEAR]
 
+    # 3) drop postings explicitly tied to a non-summer season
     seasons = {s for s in SEASONS_ALL if s in text}
-    if seasons:
-        season_ok = WANT_SEASON in seasons
-        if season_ok:
-            tags.append("summer")
-    else:
-        season_ok = True
-        tags.append("no-season")         # season chosen later; keep for review
-
-    return (year_ok and season_ok), tags
+    if seasons and WANT_SEASON not in seasons:
+        return False, []
+    if WANT_SEASON in seasons:
+        tags.append("summer")
+    return True, tags
 
 
 # -------------------------------------------------------------------- http -----
