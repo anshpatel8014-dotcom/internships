@@ -4,7 +4,7 @@ name: internship-radar
 # mornings mostly, but 4h cadence means you're never more than a few hours behind.
 on:
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "*/30 * * * *"     # every 30 minutes
   workflow_dispatch: {}
 
 permissions:
