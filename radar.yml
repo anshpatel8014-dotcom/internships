@@ -1,0 +1,37 @@
+name: internship-radar
+
+# Runs every 4 hours (and on manual trigger). Aerospace interns post on weekday
+# mornings mostly, but 4h cadence means you're never more than a few hours behind.
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write          # lets the job commit seen.json back so state persists
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run radar
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          SLACK_WEBHOOK:   ${{ secrets.SLACK_WEBHOOK }}
+          USAJOBS_KEY:     ${{ secrets.USAJOBS_KEY }}
+          USAJOBS_EMAIL:   ${{ secrets.USAJOBS_EMAIL }}
+        run: python internship_radar.py
+
+      - name: Persist state
+        run: |
+          git config user.name  "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add seen.json new_postings.md all_matches.csv
+          git commit -m "radar: $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
+          git push || echo "nothing to push"
