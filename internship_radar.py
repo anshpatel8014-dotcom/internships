@@ -196,19 +196,38 @@ def fetch_workday(name, tenant, dc, site):
 
 
 # ------------------------------------------------------------------ notify -----
+def _send_discord(webhook, msg):
+    """Split into <2000-char chunks (Discord's hard limit) so nothing is dropped."""
+    chunk = ""
+    for line in msg.split("\n"):
+        if len(chunk) + len(line) + 1 > 1900:
+            if chunk:
+                _post(webhook, {"content": chunk})
+            chunk = line
+        else:
+            chunk = f"{chunk}\n{line}" if chunk else line
+    if chunk:
+        _post(webhook, {"content": chunk})
+
+
+def _send_slack(webhook, msg):
+    for i in range(0, len(msg), 3000):
+        _post(webhook, {"text": msg[i:i + 3000]})
+
+
 def notify(new):
     if not new:
         return
     lines = [f"🛰️ {len(new)} new aerospace internship(s):"]
-    for m in new[:25]:
+    for m in new:                         # no cap — every match is sent
         lines.append(f"• **{m['company']}** — {m['title']} ({m['location']})\n  {m['url']}")
     msg = "\n".join(lines)
     dw, sw = os.getenv("DISCORD_WEBHOOK"), os.getenv("SLACK_WEBHOOK")
     try:
         if dw:
-            _post(dw, {"content": msg[:1900]})
+            _send_discord(dw, msg)
         if sw:
-            _post(sw, {"text": msg[:3000]})
+            _send_slack(sw, msg)
     except Exception as e:
         print(f"  ! notify failed: {e}", file=sys.stderr)
 
