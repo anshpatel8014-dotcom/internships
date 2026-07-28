@@ -44,6 +44,7 @@ WORKDAY = {
     "Northrop Grumman": ("ngc",            "wd1", "Northrop_Grumman_External_Site"),
     "RTX (Raytheon/P&W)":("rtx",           "wd1", "RTX"),
     "Boeing":           ("boeing",         "wd1", "external_careers"),
+    "Rolls-Royce":      ("rollsroyce",     "wd3", "Intern_Graduate"),  # dedicated intern/grad portal
 }
 
 # --- USAJOBS (federal: Pathways, AFRL, national labs) ---------------------------
