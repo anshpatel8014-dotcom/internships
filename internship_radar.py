@@ -40,6 +40,18 @@ SEASONS_ALL = {"spring", "summer", "fall", "autumn", "winter"}
 WANT_SEASON = "summer"
 TAG_RE = re.compile(r"<[^>]+>")
 
+# --- discipline filter -----------------------------------------------------
+# Narrow to mechanical-engineering-relevant roles. Set to False for ALL interns.
+REQUIRE_DISCIPLINE = True
+# Matched in title OR body (a "generic Engineering Intern" posting usually names
+# the target major in its description). Includes your propulsion/combustion niche.
+MECH_RE = re.compile(
+    r"\b(mechanical|mech\s?e|propulsion|thermal|thermodynamics?|fluids?|"
+    r"aerodynamics?|aerospace|astronautical|structural|structures|mechatronics?|"
+    r"combustion|hvac|heat transfer|solid mechanics|design engineer|"
+    r"manufacturing|dynamics|robotics|mechanism|cad|gd&t)\b"
+)
+
 
 def clean(html: str) -> str:
     return unescape(TAG_RE.sub(" ", html or "")).lower()
@@ -68,6 +80,13 @@ def classify(title: str, content: str):
         return False, []
     if WANT_SEASON in seasons:
         tags.append("summer")
+
+    # 4) narrow to mechanical-engineering-relevant roles (toggle above)
+    if REQUIRE_DISCIPLINE:
+        m = MECH_RE.search(text)
+        if not m:
+            return False, []
+        tags.append(m.group(1).replace(" ", "-"))
     return True, tags
 
 
