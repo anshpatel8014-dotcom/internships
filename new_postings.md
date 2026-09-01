@@ -1,3 +1,3 @@
-# New internships — 2026-09-01 16:11
+# New internships — 2026-09-01 19:28
 
-- **Hermeus** — [Subsystem Test Engineering Intern - Spring/Summer 2027](https://jobs.lever.co/hermeus/643fd7b7-9015-43a1-aa2b-a54f117b403c)  `Atlanta, GA` _intern 2027 summer structural_
+- **Hermeus** — [Environmental, Health, and Safety (EHS) Intern - 2027](https://jobs.lever.co/hermeus/7a0408e7-700c-4206-85d6-62f71f625652)  `Los Angeles, CA` _intern 2027 summer manufacturing_
