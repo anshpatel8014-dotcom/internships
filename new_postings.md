@@ -1,5 +1,3 @@
-# New internships — 2026-09-10 21:46
+# New internships — 2026-09-10 23:47
 
-- **Rocket Lab** — [Propulsion Design Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986816003)  `Long Beach, CA` _intern 2027 summer propulsion_
-- **Rocket Lab** — [Propulsion Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986792003)  `Long Beach, CA` _intern 2027 summer propulsion_
-- **Rocket Lab** — [Test Engineering Intern - Avionics Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7987159003)  `Long Beach, CA` _intern 2027 summer manufacturing_
+- **Boeing** — [Aerodynamics Engineering Intern- Summer 2027](https://boeing.wd1.myworkdayjobs.com/en-US/external_careers/job/GBR---Farnborough-UK/Aerodynamics-Engineering-Intern--Summer-2027_JR2026519329)  `GBR - Farnborough, UK` _intern 2027 summer aerodynamics_
