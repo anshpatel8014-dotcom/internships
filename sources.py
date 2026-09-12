@@ -17,6 +17,7 @@ are real. Delete the ones that 404.
 # --- Greenhouse boards (the reliable backbone) ---------------------------------
 # name : board_token
 GREENHOUSE = {
+    "Rivian":            "rivian",
     "SpaceX":            "spacex",            # confirmed
     "Rocket Lab":        "rocketlab",         # confirmed
     "Anduril":           "andurilindustries", # confirmed
