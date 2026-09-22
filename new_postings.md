@@ -1,3 +1,3 @@
-# New internships — 2026-09-21 22:28
+# New internships — 2026-09-22 01:04
 
-_Nothing new this run._
+- **Astranis** — [Assembly, Integration, and Test Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4704761006)  `San Francisco` _intern 2027 summer mechanical_
