@@ -1,3 +1,3 @@
-# New internships — 2026-09-23 21:12
+# New internships — 2026-09-23 23:52
 
-- **Astranis** — [Propulsion Engineer Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4713184006)  `San Francisco` _intern 2027 summer propulsion_
+- **Astranis** — [FPGA Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4704805006)  `San Francisco` _intern 2027 summer thermal_
