@@ -1,3 +1,3 @@
-# New internships — 2026-09-23 23:52
+# New internships — 2026-09-24 03:35
 
-- **Astranis** — [FPGA Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4704805006)  `San Francisco` _intern 2027 summer thermal_
+- **Astranis** — [Technical Project Management Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4708369006)  `San Francisco` _intern 2027 summer aerospace_
