@@ -1,3 +1,3 @@
-# New internships — 2026-09-25 00:41
+# New internships — 2026-09-25 05:55
 
-- **Rocket Lab** — [Test Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/8003529003)  `Wallops Island, VA` _intern 2027 summer manufacturing_
+_Nothing new this run._
