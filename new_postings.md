@@ -1,4 +1,3 @@
-# New internships — 2026-09-24 22:02
+# New internships — 2026-09-25 00:41
 
-- **Astranis** — [Harness Design Engineer Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4704779006)  `San Francisco` _intern 2027 summer design-engineer_
-- **Astranis** — [Thermal Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4704820006)  `San Francisco` _intern 2027 summer thermal_
+- **Rocket Lab** — [Test Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/8003529003)  `Wallops Island, VA` _intern 2027 summer manufacturing_
