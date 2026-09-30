@@ -1,3 +1,3 @@
-# New internships — 2026-09-30 16:42
+# New internships — 2026-09-30 21:16
 
-_Nothing new this run._
+- **Hermeus** — [Loads & Dynamics Engineering Intern - Summer 2027](https://jobs.lever.co/hermeus/29c10a11-aa02-4d64-83d0-00001cbd3ac0)  `Los Angeles, CA` _intern 2027 summer dynamics_
