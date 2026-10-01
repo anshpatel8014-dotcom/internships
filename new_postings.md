@@ -1,3 +1,3 @@
-# New internships — 2026-10-01 00:42
+# New internships — 2026-10-01 06:56
 
-- **Astranis** — [Automation & Controls Engineering Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4718206006)  `San Francisco` _intern 2027 summer mechanical_
+_Nothing new this run._
