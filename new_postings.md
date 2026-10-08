@@ -1,5 +1,3 @@
-# New internships — 2026-10-08 06:29
+# New internships — 2026-10-08 13:55
 
-- **Northrop Grumman** — [2027 Manufacturing Engineer Intern - Commerce CA](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-California-Commerce/XMLNAME-2027-Manufacturing-Engineer-Intern---Commerce-CA_R10255136)  `United States-California-Commerce` _intern 2027 manufacturing_
-- **Northrop Grumman** — [2027 Manufacturing Engineer Intern - San Diego CA](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Manufacturing-Engineer-Intern---San-Diego-CA_R10255134)  `United States-California-San Diego` _intern 2027 manufacturing_
-- **Northrop Grumman** — [2027 Mechanical/Aerospace Engineer Intern - Baltimore MD](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/XMLNAME-2027-Mechanical-Aerospace-Engineer-Intern---Baltimore-MD_R10255003)  `United States-Maryland-Baltimore` _intern 2027 mechanical_
+_Nothing new this run._
