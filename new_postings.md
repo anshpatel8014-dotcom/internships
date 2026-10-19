@@ -1,5 +1,7 @@
-# New internships — 2026-10-19 16:49
+# New internships — 2026-10-19 21:21
 
-- **Hermeus** — [Propulsion Component Engineering Intern - Spring/Summer 2027](https://jobs.lever.co/hermeus/2cbb75f7-a040-47b2-a442-d9cc1faedb11)  `Los Angeles, CA` _intern 2027 summer propulsion_
-- **Hermeus** — [Propulsion Test Engineering Intern - Spring/Summer/Fall 2027](https://jobs.lever.co/hermeus/d2651ecb-9aab-4d84-8e69-cbcf7cece28d)  `Jacksonville, FL` _intern 2027 summer propulsion_
-- **Northrop Grumman** — [2027 Mechanical Engineering Intern - Roy UT](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Mechanical-Engineering-Intern---Roy-UT_R10256223)  `United States-Utah-Roy` _intern 2027 mechanical_
+- **Anduril** — [2027 Field Test Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5268689007?gh_jid=5268689007)  `Costa Mesa, California, United States; Quincy, Massachusetts, United States` _intern 2027 summer robotics_
+- **Anduril** — [2027 Guidance, Navigation, & Control Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5268736007?gh_jid=5268736007)  `Costa Mesa, California, United States` _intern 2027 summer robotics_
+- **Anduril** — [2027 Low Observables Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5268752007?gh_jid=5268752007)  `Costa Mesa, California, United States` _intern 2027 summer aerospace_
+- **Anduril** — [2027 Technical Program Manager Intern](https://boards.greenhouse.io/andurilindustries/jobs/5268864007?gh_jid=5268864007)  `Costa Mesa, California, United States; Honolulu, Hawaii, United States; Reston, Virginia, United States; Seattle, Washington, United States; Washington, District of Columbia, United States` _intern 2027 summer aerospace_
+- **Northrop Grumman** — [2027 Mechanical Propulsion Engineer Internship - Dulles VA](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/XMLNAME-2027-Mechanical-Propulsion-Engineer-Internship---Dulles-VA_R10256657)  `United States-Virginia-Dulles` _intern 2027 mechanical_
