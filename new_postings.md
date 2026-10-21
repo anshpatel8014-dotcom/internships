@@ -1,3 +1,3 @@
-# New internships — 2026-10-20 22:57
+# New internships — 2026-10-21 01:26
 
-- **Anduril** — [2027 Finance Data Analyst Intern](https://boards.greenhouse.io/andurilindustries/jobs/5269977007?gh_jid=5269977007)  `Costa Mesa, California, United States` _intern 2027 aerospace_
+_Nothing new this run._
