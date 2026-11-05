@@ -1,4 +1,4 @@
-# New internships — 2026-11-04 21:25
+# New internships — 2026-11-05 01:41
 
-- **Anduril** — [2027 Library Science Intern](https://boards.greenhouse.io/andurilindustries/jobs/5278662007?gh_jid=5278662007)  `Santa Ana, California, United States` _intern 2027 summer manufacturing_
-- **Northrop Grumman** — [2027 Integration and Test (Electronics/Mechanical) Technical Intern - Dulles VA](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/XMLNAME-2027-Integration-and-Test--Electronics-Mechanical--Technical-Intern---Dulles-VA_R10259321)  `United States-Virginia-Dulles` _intern 2027 mechanical_
+- **Northrop Grumman** — [2027 Mechanical Engineer Intern- Gilbert AZ](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Arizona-Gilbert/XMLNAME-2027-Mechanical-Engineer-Intern--Gilbert-AZ_R10258214)  `United States-Arizona-Gilbert` _intern 2027 mechanical_
+- **Northrop Grumman** — [2027 Structural Dynamics Engineer Intern - Redondo Beach CA](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/XMLNAME-2027-Structural-Dynamics-Engineer-Intern---Redondo-Beach-CA_R10259391)  `United States-California-Redondo Beach` _intern 2027 structural_
