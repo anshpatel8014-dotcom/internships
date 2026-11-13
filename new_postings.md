@@ -1,3 +1,3 @@
-# New internships — 2026-11-13 15:57
+# New internships — 2026-11-13 21:52
 
-_Nothing new this run._
+- **Anduril** — [2027 Brand Marketing Intern](https://boards.greenhouse.io/andurilindustries/jobs/5261731007?gh_jid=5261731007)  `Costa Mesa, California, United States` _intern 2027 summer manufacturing_
