@@ -1,3 +1,3 @@
-# New internships — 2026-11-18 17:51
+# New internships — 2026-11-18 23:58
 
-- **Anduril** — [2027 Business Systems Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5300647007?gh_jid=5300647007)  `Costa Mesa, California, United States` _intern 2027 summer manufacturing_
+- **Northrop Grumman** — [2027 Propulsion Test Engineer Intern - Edwards AFB CA](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-California-Edwards-AFB/XMLNAME-2027-Propulsion-Test-Engineer-Intern---Edwards-AFB-CA_R10261436)  `United States-California-Edwards AFB` _intern 2027 propulsion_
